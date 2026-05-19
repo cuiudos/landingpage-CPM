@@ -510,6 +510,36 @@ nav.scrolled{
 }
 .cta-final .btn-primary{font-size:13px;padding:18px 48px;position:relative;z-index:1;}
 
+/* ─── PORTFÓLIO ─── */
+.portfolio{
+  padding:80px 40px;
+  border-top:1px solid var(--borda);
+  max-width:1100px;margin:0 auto;
+}
+.portfolio .section-label{margin-bottom:12px}
+.portfolio-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(220px,1fr));
+  gap:16px;
+  margin-top:30px;
+}
+.portfolio-card{
+  background:var(--surface);
+  border:1px solid var(--borda);
+  border-radius:8px;
+  overflow:hidden;
+  display:flex;flex-direction:column;
+}
+.portfolio-thumb{
+  width:100%;height:0;padding-bottom:56.25%; /* 16:9 */
+  background-size:cover;background-position:center;
+}
+.portfolio-body{padding:16px;display:flex;flex-direction:column;gap:8px;}
+.portfolio-body h3{font-size:14px;margin:0;color:var(--texto);}
+.portfolio-body p{font-size:13px;color:var(--texto-suave);margin:0;line-height:1.6}
+.portfolio-card:hover{transform:translateY(-6px);border-color:var(--verde-borda);}
+
+
 /* ─── FOOTER ─── */
 footer{
   border-top:1px solid var(--borda);
@@ -925,6 +955,63 @@ footer{
       <span class="tipo-icon">🔧</span>
       <h3>Manutenção e Reparos</h3>
       <p>Encanadores, eletricistas, mecânicos — apareça quando o cliente procura.</p>
+    </div>
+  </div>
+</section>
+
+<!-- PORTFÓLIO -->
+<section class="portfolio reveal" id="portfolio">
+  <div class="section-label">Portfólio</div>
+  <h2 class="section-title">Projetos recentes<br>que entregamos</h2>
+  <p class="section-sub">Exemplos reais de sites desenvolvidos para clientes — design, conversão e integração com WhatsApp.</p>
+
+  <div class="portfolio-grid">
+    <div class="portfolio-card">
+      <div class="portfolio-thumb" style="background-image:url('https://via.placeholder.com/800x450?text=Projeto+1')"></div>
+      <div class="portfolio-body">
+        <h3>Loja Ponto & Co.</h3>
+        <p>Landing e catálogo com integração direta para pedidos via WhatsApp.</p>
+      </div>
+    </div>
+
+    <div class="portfolio-card">
+      <div class="portfolio-thumb" style="background-image:url('https://via.placeholder.com/800x450?text=Projeto+2')"></div>
+      <div class="portfolio-body">
+        <h3>Clínica Saúde+</h3>
+        <p>Site institucional com agendamento e página de especialidades.</p>
+      </div>
+    </div>
+
+    <div class="portfolio-card">
+      <div class="portfolio-thumb" style="background-image:url('https://via.placeholder.com/800x450?text=Projeto+3')"></div>
+      <div class="portfolio-body">
+        <h3>Restaurante Sabor</h3>
+        <p>Cardápio online e sistema de pedido via WhatsApp.</p>
+      </div>
+    </div>
+
+    <div class="portfolio-card">
+      <div class="portfolio-thumb" style="background-image:url('https://via.placeholder.com/800x450?text=Projeto+4')"></div>
+      <div class="portfolio-body">
+        <h3>Oficina Rápida</h3>
+        <p>Catálogo de serviços e formulário de contato integrado ao WhatsApp.</p>
+      </div>
+    </div>
+
+    <div class="portfolio-card">
+      <div class="portfolio-thumb" style="background-image:url('https://via.placeholder.com/800x450?text=Projeto+5')"></div>
+      <div class="portfolio-body">
+        <h3>Consultoria Alfa</h3>
+        <p>Site para profissional liberal com blog e contatos.</p>
+      </div>
+    </div>
+
+    <div class="portfolio-card">
+      <div class="portfolio-thumb" style="background-image:url('https://via.placeholder.com/800x450?text=Projeto+6')"></div>
+      <div class="portfolio-body">
+        <h3>Loja Digital Beta</h3>
+        <p>Catálogo visual com link direto para compra via WhatsApp.</p>
+      </div>
     </div>
   </div>
 </section>
