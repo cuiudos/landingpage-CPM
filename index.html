@@ -1026,114 +1026,68 @@ footer{
 
     <div class="filter-bar">
       <button class="filter-btn active" onclick="filterPortfolios(this,'all')">Todos</button>
-      <button class="filter-btn" onclick="filterPortfolios(this,'comércio')">Comércio</button>
-      <button class="filter-btn" onclick="filterPortfolios(this,'serviços')">Serviços</button>
-      <button class="filter-btn" onclick="filterPortfolios(this,'consultoria')">Consultoria</button>
-      <button class="filter-btn" onclick="filterPortfolios(this,'restaurante')">Restaurante</button>
+      <button class="filter-btn" onclick="filterPortfolios(this,'floricultura')">Floricultura</button>
+      <button class="filter-btn" onclick="filterPortfolios(this,'arquitetura')">Arquitetura</button>
+      <button class="filter-btn" onclick="filterPortfolios(this,'advocacia')">Advocacia</button>
     </div>
 
     <div class="portfolio-grid" id="portfolioGrid">
-      <a href="https://siteflores-v2.netlify.app/" target="_blank" rel="noopener" class="portfolio-card featured" data-cat="comércio" style="text-decoration:none;color:inherit;">
+      <a href="https://siteflores-v2.netlify.app/" target="_blank" rel="noopener" class="portfolio-card featured" data-cat="floricultura" style="text-decoration:none;color:inherit;">
         <div class="portfolio-thumb" style="background-image:url('https://s.wordpress.com/mshots/v1/https://siteflores-v2.netlify.app?w=1200')"></div>
         <div class="portfolio-overlay">
-          <p style="color:rgba(240,242,245,0.8);font-size:.9rem;font-weight:300;line-height:1.7">
-            Loja online completa com catálogo de produtos, carrinho de compras e integração WhatsApp para suporte 24h.
+          <p style="color:rgba(240,242,245,0.9);font-size:.95rem;font-weight:300;line-height:1.7">
+            Prévia do site real de floricultura com catálogo visual, opções de bouquets e pedido via WhatsApp.
           </p>
         </div>
         <div class="portfolio-body">
-          <div class="portfolio-tag">Comércio</div>
-          <h3>Floricultura Online</h3>
-          <p>Catálogo visual e venda integrada com WhatsApp</p>
+          <div class="portfolio-tag">Floricultura</div>
+          <h3>Floricultura Bela Flor</h3>
+          <p>Loja online com catálogo e atendimento direto pelo WhatsApp</p>
           <div class="portfolio-year">Betim · 2025</div>
         </div>
       </a>
 
-      <a href="https://siteflores-v1.netlify.app/" target="_blank" rel="noopener" class="portfolio-card" data-cat="comércio" style="text-decoration:none;color:inherit;">
+      <a href="https://siteflores-v1.netlify.app/" target="_blank" rel="noopener" class="portfolio-card" data-cat="floricultura" style="text-decoration:none;color:inherit;">
         <div class="portfolio-thumb" style="background-image:url('https://s.wordpress.com/mshots/v1/https://siteflores-v1.netlify.app?w=1200')"></div>
         <div class="portfolio-overlay">
-          <p style="color:rgba(240,242,245,0.8);font-size:.9rem;font-weight:300;line-height:1.7">
-            Primeira versão do projeto com catálogo otimizado e formulário de contato direto.
+          <p style="color:rgba(240,242,245,0.9);font-size:.95rem;font-weight:300;line-height:1.7">
+            Prévia do site de floricultura original, com catálogo otimizado e formulário de contato pela página.
           </p>
         </div>
         <div class="portfolio-body">
-          <div class="portfolio-tag">Comércio</div>
+          <div class="portfolio-tag">Floricultura</div>
           <h3>Floricultura — V1</h3>
-          <p>Primeira versão com conversão rápida</p>
+          <p>Primeira versão com foco em conversão e contato rápido</p>
           <div class="portfolio-year">Betim · 2024</div>
         </div>
       </a>
 
-      <div class="portfolio-card" data-cat="restaurante">
-        <div class="portfolio-thumb" style="background:linear-gradient(135deg,#8B7355,#6B5840)"></div>
+      <a href="https://arquiteta-tt.netlify.app/" target="_blank" rel="noopener" class="portfolio-card" data-cat="arquitetura" style="text-decoration:none;color:inherit;">
+        <div class="portfolio-thumb" style="background-image:url('https://s.wordpress.com/mshots/v1/https://arquiteta-tt.netlify.app?w=1200')"></div>
         <div class="portfolio-overlay">
-          <p style="color:rgba(240,242,245,0.8);font-size:.9rem;font-weight:300;line-height:1.7">
-            Cardápio digital, reservas online e integração direta com WhatsApp para pedidos de entrega e agendamentos.
+          <p style="color:rgba(240,242,245,0.9);font-size:.95rem;font-weight:300;line-height:1.7">
+            Prévia do site de arquitetura com portfólio de projetos, serviços e contato direto por WhatsApp.
           </p>
         </div>
         <div class="portfolio-body">
-          <div class="portfolio-tag">Restaurante</div>
-          <h3>Restaurante Sabor</h3>
-          <p>Cardápio online e pedidos via WhatsApp</p>
-          <div class="portfolio-year">Betim · 2025</div>
-        </div>
-      </div>
-
-      <div class="portfolio-card" data-cat="serviços">
-        <div class="portfolio-thumb" style="background:linear-gradient(135deg,#4A5568,#2D3748)"></div>
-        <div class="portfolio-overlay">
-          <p style="color:rgba(240,242,245,0.8);font-size:.9rem;font-weight:300;line-height:1.7">
-            Portfólio de serviços, agendamento online e formulário de orçamento integrado ao WhatsApp.
-          </p>
-        </div>
-        <div class="portfolio-body">
-          <div class="portfolio-tag">Serviços</div>
-          <h3>Oficina Profissional</h3>
-          <p>Catálogo de serviços e contato integrado</p>
-          <div class="portfolio-year">Betim · 2024</div>
-        </div>
-      </div>
-
-      <a href="https://advocacia-tt.netlify.app/" target="_blank" rel="noopener" class="portfolio-card" data-cat="consultoria" style="text-decoration:none;color:inherit;">
-        <div class="portfolio-thumb" style="background:linear-gradient(135deg,#6B7280,#374151)"></div>
-        <div class="portfolio-overlay">
-          <p style="color:rgba(240,242,245,0.8);font-size:.9rem;font-weight:300;line-height:1.7">
-            Site para escritório de advocacia com equipe, áreas de atuação e contato rápido via WhatsApp.
-          </p>
-        </div>
-        <div class="portfolio-body">
-          <div class="portfolio-tag">Consultoria</div>
-          <h3>Advocacia TT</h3>
-          <p>Escritório de advocacia com foco em atendimento e serviços jurídicos</p>
-          <div class="portfolio-year">Betim · 2025</div>
-        </div>
-      </a>
-
-      <div class="portfolio-card featured" data-cat="serviços">
-        <div class="portfolio-thumb" style="background:linear-gradient(135deg,#78716C,#44403C)"></div>
-        <div class="portfolio-overlay">
-          <p style="color:rgba(240,242,245,0.8);font-size:.9rem;font-weight:300;line-height:1.7">
-            Site profissional com galeria de trabalhos anteriores, depoimentos de clientes e agendamento via WhatsApp.
-          </p>
-        </div>
-        <div class="portfolio-body">
-          <div class="portfolio-tag">Serviços</div>
-          <h3>Salão & Estética</h3>
-          <p>Agendamentos e galeria de trabalhos</p>
-          <div class="portfolio-year">Betim · 2024</div>
-        </div>
-      </div>
-
-      <a href="https://arquiteta-tt.netlify.app/" target="_blank" rel="noopener" class="portfolio-card" data-cat="serviços" style="text-decoration:none;color:inherit;">
-        <div class="portfolio-thumb" style="background:linear-gradient(135deg,#203A5D,#2B4B6A)"></div>
-        <div class="portfolio-overlay">
-          <p style="color:rgba(240,242,245,0.8);font-size:.9rem;font-weight:300;line-height:1.7">
-            Landing page de arquitetura com foco em captação de clientes e agendamento via WhatsApp.
-          </p>
-        </div>
-        <div class="portfolio-body">
-          <div class="portfolio-tag">Serviços</div>
+          <div class="portfolio-tag">Arquitetura</div>
           <h3>Arquitetura TT</h3>
-          <p>Site para arquiteta com portfólio, agenda e contato direto.</p>
+          <p>Portfólio de projetos e comunicação rápida para clientes</p>
+          <div class="portfolio-year">Betim · 2025</div>
+        </div>
+      </a>
+
+      <a href="https://advocacia-tt.netlify.app/" target="_blank" rel="noopener" class="portfolio-card" data-cat="advocacia" style="text-decoration:none;color:inherit;">
+        <div class="portfolio-thumb" style="background-image:url('https://s.wordpress.com/mshots/v1/https://advocacia-tt.netlify.app?w=1200')"></div>
+        <div class="portfolio-overlay">
+          <p style="color:rgba(240,242,245,0.9);font-size:.95rem;font-weight:300;line-height:1.7">
+            Prévia do site de escritório de advocacia com serviços, área de atuação e contato via WhatsApp.
+          </p>
+        </div>
+        <div class="portfolio-body">
+          <div class="portfolio-tag">Advocacia</div>
+          <h3>Advocacia TT</h3>
+          <p>Site profissional para escritório jurídico com foco em atendimento e serviços</p>
           <div class="portfolio-year">Betim · 2025</div>
         </div>
       </a>
